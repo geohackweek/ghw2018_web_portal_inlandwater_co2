@@ -20,7 +20,8 @@ The project contains two main parts: designing the frontend web application and 
 
   * *Batch Upload*
 
-  In the Batch Upload interface, users are asked to select a series (e.g., 10) of columns and units and specify the total number of observations (e.g., 15) to generate a spread table for data input. Selected columns, units and number of rows correspond to the structure and formats of user¡¯s to-be-upload data. A spread table is generated with user-specified columns, units and number of rows (15 rows ¡Á 10 columns with specified units in this case). The user can paste his/her data to the spread table. Column sequence is adjustable by giving sequence number to each column to be adjusted. A SUBMIT button sends data to the backend database.
+    In the Batch Upload interface, users are asked to select a series (e.g., 10) of columns and units and specify the total number of observations (e.g., 15) to generate a spread table for data input. Selected columns, units and number of rows correspond to the structure and formats of user¡¯s to-be-upload data. 
+    A spread table is generated with user-specified columns, units and number of rows (15 rows ¡Á 10 columns with specified units in this case). The user can paste his/her data to the spread table. Column sequence is adjustable by giving sequence number to each column to be adjusted. A SUBMIT button sends data to the backend database.
 
   * *Single Upload*
 
