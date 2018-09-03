@@ -26,9 +26,9 @@ The project contains two main parts: designing the frontend web application and 
   * *Single Upload*
     In the Single Upload interface, users will type data directly into the data-submitting form and select units from dropdown menus. User has the option to save typed-in data at each intermediate step and submit data to the database by clicking on SUBMIT.
 
-Note - considering most of users¡¯ data are stored in spreadsheet formats (MS Excel sheet, csv file, etc.), the batch upload option which generates a spread table for users to paste and send data is probably the most recommended.
+  Note - considering most of users¡¯ data are stored in spreadsheet formats (MS Excel sheet, csv file, etc.), the batch upload option which generates a spread table for users to paste and send data is probably the most recommended.
 
-Note - allowing user to upload csv files to the database is probably not a good option for taking in user data considering very limited control on data format even with associating metadata.
+  Note - allowing user to upload csv files to the database is probably not a good option for taking in user data considering very limited control on data format even with associating metadata.
 
 * **Viewing Data** - on the main page, user can choose different data types (CO<sub>2</sub> concentration, flux and other ancillary data) for visualization and viewing by checking on/off different boxes. 
 
