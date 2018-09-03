@@ -7,14 +7,14 @@ Observational data, especially *in situ* CO<sub>2</sub> concentration and flux m
 An impressive web portal from Global Ocean Acidification Network for visualizing ocean field campaigns can be found via http://portal.goa-on.org/Explorer.
 	
 ## Sample Data:
-We¡¯ve compiled some 6000 individual CO<sub>2</sub> concentration/flux measurements from the literature in MS Excel form, which can be used to jump start construction of the online web-portal. We expect, however, that most of the project time is spent on construction of the front- and backend of the web portal rather than using the data for actual analysis. We hope that size of dataset can be doubled or tripled over the next 1¨C2 years through involving the bigger community with a well-designed web portal.
+We¡¯ve compiled some 6000 individual CO<sub>2</sub> concentration/flux measurements from the literature in MS Excel form, which can be used to jump start construction of the online web-portal. We expect, however, that most of the project time is spent on construction of the front- and backend of the web portal rather than using the data for actual analysis. We hope that size of dataset can be doubled or tripled over the next 1-2 years through involving the bigger community with a well-designed web portal.
 
 ## Specific Questions (breaking up of the project task):
 The project contains two main parts: designing the frontend web application and backend database of the web-portal.
 ### 1. Designing frontend of the web-portal
 The main page ¡ª the main page of the web portal includes three major functionalities for uploading, visualizing and downloading CO<sub>2</sub> observational data in global inland waters. Included also is a map interface which displays background world map, site locations and CO<sub>2</sub> data from a connected backend database.
 
-The map interface ¡ª choose an online map service which can be integrated into the main page as a background map. The map must also have capabilities to be connected to the backend database and to visualize georeferenced point data. Adjustable tools for simple visualizations of the data points (in symbol size, color ramp, etc.) will also be developed.
+The map interface - choose an online map service which can be integrated into the main page as a background map. The map must also have capabilities to be connected to the backend database and to visualize georeferenced point data. Adjustable tools for simple visualizations of the data points (in symbol size, color ramp, etc.) will also be developed.
 
 Uploading data ¡ª an UPLOAD DATA button unfolds two possible data uploading options: Batch Upload and Single Upload, which lead users to web interfaces for batch and single uploading options, respectively.
 
