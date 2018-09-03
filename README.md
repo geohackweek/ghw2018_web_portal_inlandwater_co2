@@ -1,18 +1,18 @@
-# Project Tile: Web Portal for Concentration and Flux of CO<sub>2<sub> in Global Inland Waters
+# Project Tile: Web Portal for Concentration and Flux of CO<sub>2</sub> in Global Inland Waters
 
 ## The Problem:
-Observational data, especially *in situ* CO<sub>2<sub> concentration and flux measurements, are essential for correctly modeling CO<sub>2<sub> evasions from global inland waters. However, these measurements were collected and published separately by different research groups and there is a lack of a cohesive synthesis of direct measurements, hampering our ability to accurately model CO<sub>2<sub> emissions from inland waters. We believe that a global synthesis of direct CO<sub>2<sub> measurements would greatly enhance our understanding of the role that inland water plays in contributing CO<sub>2<sub> to the atmosphere. A publically accessible, easy-to-use web portal for researchers to easily input, visualize and download data would be a favorable approach for the synthesis ahead.
+Observational data, especially *in situ* CO<sub>2</sub> concentration and flux measurements, are essential for correctly modeling CO<sub>2</sub> evasions from global inland waters. However, these measurements were collected and published separately by different research groups and there is a lack of a cohesive synthesis of direct measurements, hampering our ability to accurately model CO<sub>2</sub> emissions from inland waters. We believe that a global synthesis of direct CO<sub>2</sub> measurements would greatly enhance our understanding of the role that inland water plays in contributing CO<sub>2</sub> to the atmosphere. A publically accessible, easy-to-use web portal for researchers to easily input, visualize and download data would be a favorable approach for the synthesis ahead.
 
 ## Application Example:
 An impressive web portal from Global Ocean Acidification Network for visualizing ocean field campaigns can be found via http://portal.goa-on.org/Explorer.
 	
 ## Sample Data:
-We¡¯ve compiled some 6000 individual CO<sub>2<sub> concentration/flux measurements from the literature in MS Excel form, which can be used to jump start construction of the online web-portal. We expect, however, that most of the project time is spent on construction of the front- and backend of the web portal rather than using the data for actual analysis. We hope that size of dataset can be doubled or tripled over the next 1¨C2 years through involving the bigger community with a well-designed web portal.
+We¡¯ve compiled some 6000 individual CO<sub>2</sub> concentration/flux measurements from the literature in MS Excel form, which can be used to jump start construction of the online web-portal. We expect, however, that most of the project time is spent on construction of the front- and backend of the web portal rather than using the data for actual analysis. We hope that size of dataset can be doubled or tripled over the next 1¨C2 years through involving the bigger community with a well-designed web portal.
 
 ## Specific Questions (breaking up of the project task):
 The project contains two main parts: designing the frontend web application and backend database of the web-portal.
 ### 1. Designing frontend of the web-portal
-The main page ¡ª the main page of the web portal includes three major functionalities for uploading, visualizing and downloading CO<sub>2<sub> observational data in global inland waters. Included also is a map interface which displays background world map, site locations and CO<sub>2<sub> data from a connected backend database.
+The main page ¡ª the main page of the web portal includes three major functionalities for uploading, visualizing and downloading CO<sub>2</sub> observational data in global inland waters. Included also is a map interface which displays background world map, site locations and CO<sub>2</sub> data from a connected backend database.
 
 The map interface ¡ª choose an online map service which can be integrated into the main page as a background map. The map must also have capabilities to be connected to the backend database and to visualize georeferenced point data. Adjustable tools for simple visualizations of the data points (in symbol size, color ramp, etc.) will also be developed.
 
@@ -30,7 +30,7 @@ Note ¡ª considering most of users¡¯ data are stored in spreadsheet formats (MS E
 
 Note ¡ª allowing user to upload csv files to the database is probably not a good option for taking in user data considering very limited control on data format even with associating metadata.
 
-Viewing Data ¡ª on the main page, user can choose different data types (CO<sub>2<sub> concentration, flux and other ancillary data) for visualization and viewing by checking on/off different boxes. 
+Viewing Data ¡ª on the main page, user can choose different data types (CO<sub>2</sub> concentration, flux and other ancillary data) for visualization and viewing by checking on/off different boxes. 
 
 Downloading Data ¡ª on the main page, for data downloading, user can filter through a series of data types and click on the DOWNLOAD DATA button (this option can be probably developed at a later stage of the web-portal development).
 
@@ -44,35 +44,35 @@ Site Location: longitude and latitude in decimal degree or ¡°deg, min, sec¡°, an
 
 Part 2: Physical Properties ¡ª
 Sampling date: yyyy-mm-dd
-Discharge: m s-1, L s-1, ft s-1
+Discharge: m s<sup>-1</sup>, L s<sup>-1</sup>, ft s<sup>-1</sup>
 Water Temp: ¡ãC
 Air Temp: ¡ãC
 Width: m, km
 Depth: cm, m, ft
-Surface Area (for lakes, ponds, etc.): m2, ft2, km2
-Flow Velocity: m s-1, ft s-1
-Wind Speed: m s-1, ft s-1
+Surface Area (for lakes, ponds, etc.): m<sup>2</sup>, ft<sup>2</sup>, km<sup>2</sup>
+Flow Velocity: m s<sup>-1</sup>, ft s<sup>-1</sup>
+Wind Speed: m s<sup>-1</sup>, ft s<sup>-1</sup>
 
 Part 3: Greenhouse Gas Concentrations ¡ª
-CO<sub>2<sub>: ppm, ¦Ìatm, ¦Ìmol L-1, mg C L-1 mg L-1
-CO<sub>2<sub> method: ¡­
+CO<sub>2</sub>: ppm, ¦Ìatm, ¦Ìmol L<sup>-1</sup>, mg C L<sup>-1</sup> mg L<sup>-1</sup>
+CO<sub>2</sub> method: ¡­
 
 Part 4: Greenhouse Gas Fluxes ¡ª
-CO<sub>2<sub> Flux: g C m-2 yr-1, mg C m-2 d-1, mg C m-2 hr-1, ¦Ìg C m-2 d-1 g C m-2 d-1 
-CO<sub>2<sub> Flux method:
+CO<sub>2</sub> Flux: g C m<sup>-2</sup> yr<sup>-1</sup>, mg C m<sup>-2</sup> d<sup>-1</sup>, mg C m<sup>-2</sup> hr<sup>-1</sup>, ¦Ìg C m<sup>-2</sup> d<sup>-1</sup> g C m<sup>-2</sup> d<sup>-1</sup> 
+CO<sub>2</sub> Flux method:
 
 Part 5: Gas Transfer Velocity ¡ª
-k<sub>600<sub>-CO<sub>2<sub>: m d-1, cm s-1
-k-CO<sub>2<sub>: m d-1, cm s-1
+k<sub>600</sub>-CO<sub>2</sub>: m d<sup>-1</sup>, cm s<sup>-1</sup>
+k-CO<sub>2</sub>: m d<sup>-1</sup>, cm s<sup>-1</sup>
 
 Part 6: Other field measurements ¡ª
-DOC: mg L-1, ¦Ìmol L-1
-POC: mg L-1, ¦Ìmol L-1
-TOC: mg L-1, ¦Ìmol L-1
+DOC: mg L<sup>-1</sup>, ¦Ìmol L<sup>-1</sup>
+POC: mg L<sup>-1</sup>, ¦Ìmol L<sup>-1</sup>
+TOC: mg L<sup>-1</sup>, ¦Ìmol L<sup>-1</sup>
 pH
-Alkalinity: 100 mg CaCO<sub>3<sub>, ¦Ìmol L-1
-DO: mg L-1
-Chl a: ¦Ìg L-1
+Alkalinity: 100 mg CaCO<sub>3</sub>, ¦Ìmol L<sup>-1</sup>
+DO: mg L<sup>-1</sup>
+Chl a: ¦Ìg L<sup>-1</sup>
 
 Note: listed selection options and units are to be added or changed.
 
@@ -85,6 +85,6 @@ Backend database: MySQL, Oracle, etc.
 To be determined.
 
 ## Background reading
-Abril, G., S. Bouillon, F. Darchambeau, C. R. Teodoru, T. R. Marwick, F. Tamooh, F. Ochieng Omengo, N. Geeraert, L. Deirmendjian, and P. Polsenaere (2015), Technical Note: Large overestimation of pCO2 calculated from pH and alkalinity in acidic, organic-rich freshwaters, Biogeosciences, 12(1), 67-78.
+Abril, G., S. Bouillon, F. Darchambeau, C. R. Teodoru, T. R. Marwick, F. Tamooh, F. Ochieng Omengo, N. Geeraert, L. Deirmendjian, and P. Polsenaere (2015), Technical Note: Large overestimation of pCO<sub>2</sub> calculated from pH and alkalinity in acidic, organic-rich freshwaters, Biogeosciences, 12(1), 67-78.
 Allen, G. H., and T. M. Pavelsky (2018), Global extent of rivers and streams, Science. 
 Raymond, P. A., J. Hartmann, R. Lauerwald, S. Sobek, C. McDonald, M. Hoover, D. Butman, R. Striegl, E. Mayorga, and C. Humborg (2013), Global carbon dioxide emissions from inland waters, Nature, 503(7476), 355-359.
