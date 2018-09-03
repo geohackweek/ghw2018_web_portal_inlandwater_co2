@@ -12,27 +12,27 @@ We have compiled some 6000 individual CO<sub>2</sub> concentration/flux measurem
 ## Specific Questions (breaking up of the project task):
 The project contains two main parts: designing the frontend web application and backend database of the web-portal.
 ### 1. Designing frontend of the web-portal
-The main page - the main page of the web portal includes three major functionalities for uploading, visualizing and downloading CO<sub>2</sub> observational data in global inland waters. Included also is a map interface which displays background world map, site locations and CO<sub>2</sub> data from a connected backend database.
+The **main page** - the main page of the web portal includes three major functionalities for uploading, visualizing and downloading CO<sub>2</sub> observational data in global inland waters. Included also is a map interface which displays background world map, site locations and CO<sub>2</sub> data from a connected backend database.
 
-The map interface - choose an online map service which can be integrated into the main page as a background map. The map must also have capabilities to be connected to the backend database and to visualize georeferenced point data. Adjustable tools for simple visualizations of the data points (in symbol size, color ramp, etc.) will also be developed.
+The **map interface** - choose an online map service which can be integrated into the main page as a background map. The map must also have capabilities to be connected to the backend database and to visualize georeferenced point data. Adjustable tools for simple visualizations of the data points (in symbol size, color ramp, etc.) will also be developed.
 
-Uploading data - an UPLOAD DATA button unfolds two possible data uploading options: Batch Upload and Single Upload, which lead users to web interfaces for batch and single uploading options, respectively.
+**Uploading data** - an UPLOAD DATA button unfolds two possible data uploading options: Batch Upload and Single Upload, which lead users to web interfaces for batch and single uploading options, respectively.
 
-Batch Upload
+*Batch Upload*
 In the Batch Upload interface, users are asked to select a series (e.g., 10) of columns and units and specify the total number of observations (e.g., 15) to generate a spread table for data input. Selected columns, units and number of rows correspond to the structure and formats of user¡¯s to-be-upload data.
 
 A spread table is generated with user-specified columns, units and number of rows (15 rows ¡Á 10 columns with specified units in this case). The user can paste his/her data to the spread table. Column sequence is adjustable by giving sequence number to each column to be adjusted. A SUBMIT button sends data to the backend database.
 
-Single Upload
+*Single Upload*
 In the Single Upload interface, users will type data directly into the data-submitting form and select units from dropdown menus. User has the option to save typed-in data at each intermediate step and submit data to the database by clicking on SUBMIT.
 
 Note - considering most of users¡¯ data are stored in spreadsheet formats (MS Excel sheet, csv file, etc.), the batch upload option which generates a spread table for users to paste and send data is probably recommended.
 
 Note - allowing user to upload csv files to the database is probably not a good option for taking in user data considering very limited control on data format even with associating metadata.
 
-Viewing Data - on the main page, user can choose different data types (CO<sub>2</sub> concentration, flux and other ancillary data) for visualization and viewing by checking on/off different boxes. 
+**Viewing Data** - on the main page, user can choose different data types (CO<sub>2</sub> concentration, flux and other ancillary data) for visualization and viewing by checking on/off different boxes. 
 
-Downloading Data - on the main page, for data downloading, user can filter through a series of data types and click on the DOWNLOAD DATA button (this option can be probably developed at a later stage of the web-portal development).
+**Downloading Data** - on the main page, for data downloading, user can filter through a series of data types and click on the DOWNLOAD DATA button (this option can be probably developed at a later stage of the web-portal development).
 
 ### 2. Designing backend database of the web-portal
 The backend database hosts data input through batch and/or single user upload and responds to user queries. The database should contain columns of the same data types and unit options as in the web interface. Columns in the frontend web interface and backend database are connected and work together to add, update and store user data and respond to user queries. The database can also perform computing (e.g., unit conversion to default) in the background.
