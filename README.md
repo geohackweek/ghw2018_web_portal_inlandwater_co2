@@ -38,11 +38,11 @@ The project contains two main parts: designing the frontend web application and 
 The backend database hosts data input through batch and/or single user upload and responds to user queries. The database should contain columns of the same data types and unit options as in the web interface. Columns in the frontend web interface and backend database are connected and work together to add, update and store user data and respond to user queries. The database can also perform computing (e.g., unit conversion to default) in the background.
 
 ### 3. List of database/web-interface columns for user data taking-in
-* **Part 1: Site Information** -
+* **Part 1: Site Information** -  
   Site Type: stream, river, lake, reservoir, pond, estuary, wetland, estuary, floodplain, and others;  
-  Site Location: longitude and latitude in decimal degree or °∞deg, min, sec°∞, and altitude in meters above sea level (masl.)
+  Site Location: longitude and latitude in decimal degree or °∞deg, min, sec°∞, and altitude in meters above sea level (masl.)  
 
-* **Part 2: Physical Properties** - 
+* **Part 2: Physical Properties** -   
   Sampling date: yyyy-mm-dd;  
   Discharge: m s<sup>-1</sup>, L s<sup>-1</sup>, ft s<sup>-1</sup>;  
   Water Temp: °„C;  
@@ -53,19 +53,19 @@ The backend database hosts data input through batch and/or single user upload an
   Flow Velocity: m s<sup>-1</sup>, ft s<sup>-1</sup>;  
   Wind Speed: m s<sup>-1</sup>, ft s<sup>-1</sup>;  
 
-* **Part 3: Greenhouse Gas Concentrations** -
+* **Part 3: Greenhouse Gas Concentrations** -  
   CO<sub>2</sub>: ppm, ¶Ãatm, ¶Ãmol L<sup>-1</sup>, mg C L<sup>-1</sup> mg L<sup>-1</sup>;  
   CO<sub>2</sub> method: °≠  
 
-* **Part 4: Greenhouse Gas Fluxes** - 
+* **Part 4: Greenhouse Gas Fluxes** -  
   CO<sub>2</sub> Flux: g C m<sup>-2</sup> yr<sup>-1</sup>, mg C m<sup>-2</sup> d<sup>-1</sup>, mg C m<sup>-2</sup> hr<sup>-1</sup>, ¶Ãg C m<sup>-2</sup> d<sup>-1</sup> g C m<sup>-2</sup> d<sup>-1</sup>;  
   CO<sub>2</sub> Flux method: ...  
 
-* **Part 5: Gas Transfer Velocity** - 
+* **Part 5: Gas Transfer Velocity** -  
   k<sub>600</sub>-CO<sub>2</sub>: m d<sup>-1</sup>, cm s<sup>-1</sup>;  
   k-CO<sub>2</sub>: m d<sup>-1</sup>, cm s<sup>-1</sup>  
 
-* **Part 6: Other field measurements** -
+* **Part 6: Other field measurements** -  
   DOC: mg L<sup>-1</sup>, ¶Ãmol L<sup>-1</sup>;  
   POC: mg L<sup>-1</sup>, ¶Ãmol L<sup>-1</sup>;  
   TOC: mg L<sup>-1</sup>, ¶Ãmol L<sup>-1</sup>;  
