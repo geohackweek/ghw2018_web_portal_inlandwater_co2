@@ -1,14 +1,15 @@
-# wet_portal
+# Project Tile: Web Portal for Concentration and Flux of CO2 in Global Inland Waters
 
-Project Tile: Web Portal for Concentration and Flux of CO2 in Global Inland Waters
-
-The Problem:
+##The Problem:
 Observational data, especially in situ CO2 concentration and flux measurements, are essential for correctly modeling CO2 evasions from global inland waters. However, these measurements were collected and published separately by different research groups and there is a lack of a cohesive synthesis of direct measurements, hampering our ability to accurately model CO2 emissions from inland waters. We believe that a global synthesis of direct CO2 measurements would greatly enhance our understanding of the role that inland water plays in contributing CO2 to the atmosphere. A publically accessible, easy-to-use web portal for researchers to easily input, visualize and download data would be a favorable approach for the synthesis ahead.
-Application Example:
-An impressive web portal from Global Ocean Acidification Network for visualizing ocean field campaigns can be found via http://portal.goa-on.org/Explorer.	
-Sample Data:
+
+##Application Example:
+An impressive web portal from Global Ocean Acidification Network for visualizing ocean field campaigns can be found via http://portal.goa-on.org/Explorer.
+	
+##Sample Data:
 We¡¯ve compiled some 6000 individual CO2 concentration/flux measurements from the literature in MS Excel form, which can be used to jump start construction of the online web-portal. We expect, however, that most of the project time is spent on construction of the front- and backend of the web portal rather than using the data for actual analysis. We hope that size of dataset can be doubled or tripled over the next 1¨C2 years through involving the bigger community with a well-designed web portal.
-Specific Questions (breaking up of the project task):
+
+##Specific Questions (breaking up of the project task):
 The project contains two main parts: designing the frontend web application and backend database of the web-portal.
 1. Designing frontend of the web-portal
 ?	The main page ¡ª the main page of the web portal includes three major functionalities for uploading, visualizing and downloading CO2 observational data in global inland waters. Included also is a map interface which displays background world map, site locations and CO2 data from a connected backend database.
@@ -71,15 +72,18 @@ o	pH
 o	Alkalinity: 100 mg CaCO3, ¦Ìmol L-1
 o	DO: mg L-1
 o	Chl a: ¦Ìg L-1
+
 Note: listed selection options and units are to be added or changed.
-Existing methods
+
+##Existing methods
 Platform: AWS, MS AZURE, Google Cloud, Yale Server
 Frontend web application: HTML, CSS, Python, etc.
 Backend database: MySQL, Oracle, etc.
-Proposed methods/tools
+
+##Proposed methods/tools
 To be determined.
 
-Background reading
+##Background reading
 Abril, G., S. Bouillon, F. Darchambeau, C. R. Teodoru, T. R. Marwick, F. Tamooh, F. Ochieng Omengo, N. Geeraert, L. Deirmendjian, and P. Polsenaere (2015), Technical Note: Large overestimation of pCO2 calculated from pH and alkalinity in acidic, organic-rich freshwaters, Biogeosciences, 12(1), 67-78.
 Allen, G. H., and T. M. Pavelsky (2018), Global extent of rivers and streams, Science. 
 Raymond, P. A., J. Hartmann, R. Lauerwald, S. Sobek, C. McDonald, M. Hoover, D. Butman, R. Striegl, E. Mayorga, and C. Humborg (2013), Global carbon dioxide emissions from inland waters, Nature, 503(7476), 355-359.
