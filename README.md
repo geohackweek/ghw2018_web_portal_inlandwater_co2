@@ -39,47 +39,47 @@ The backend database hosts data input through batch and/or single user upload an
 
 ### 3. List of database/web-interface columns for user data taking-in
 * **Part 1: Site Information** -
-  Site Type: stream, river, lake, reservoir, pond, estuary, wetland, estuary, floodplain, and others;
+  Site Type: stream, river, lake, reservoir, pond, estuary, wetland, estuary, floodplain, and others;  
   Site Location: longitude and latitude in decimal degree or °∞deg, min, sec°∞, and altitude in meters above sea level (masl.)
 
 * **Part 2: Physical Properties** - 
-  Sampling date: yyyy-mm-dd;
-  Discharge: m s<sup>-1</sup>, L s<sup>-1</sup>, ft s<sup>-1</sup>;
-  Water Temp: °„C;
-  Air Temp: °„C;
-  Width: m, km;
-  Depth: cm, m, ft;
-  Surface Area (for lakes, ponds, etc.): m<sup>2</sup>, ft<sup>2</sup>, km<sup>2</sup>;
-  Flow Velocity: m s<sup>-1</sup>, ft s<sup>-1</sup>;
-  Wind Speed: m s<sup>-1</sup>, ft s<sup>-1</sup>;
+  Sampling date: yyyy-mm-dd;  
+  Discharge: m s<sup>-1</sup>, L s<sup>-1</sup>, ft s<sup>-1</sup>;  
+  Water Temp: °„C;  
+  Air Temp: °„C;  
+  Width: m, km;  
+  Depth: cm, m, ft;  
+  Surface Area (for lakes, ponds, etc.): m<sup>2</sup>, ft<sup>2</sup>, km<sup>2</sup>;  
+  Flow Velocity: m s<sup>-1</sup>, ft s<sup>-1</sup>;  
+  Wind Speed: m s<sup>-1</sup>, ft s<sup>-1</sup>;  
 
 * **Part 3: Greenhouse Gas Concentrations** -
-  CO<sub>2</sub>: ppm, ¶Ãatm, ¶Ãmol L<sup>-1</sup>, mg C L<sup>-1</sup> mg L<sup>-1</sup>;
-  CO<sub>2</sub> method: °≠
+  CO<sub>2</sub>: ppm, ¶Ãatm, ¶Ãmol L<sup>-1</sup>, mg C L<sup>-1</sup> mg L<sup>-1</sup>;  
+  CO<sub>2</sub> method: °≠  
 
 * **Part 4: Greenhouse Gas Fluxes** - 
-  CO<sub>2</sub> Flux: g C m<sup>-2</sup> yr<sup>-1</sup>, mg C m<sup>-2</sup> d<sup>-1</sup>, mg C m<sup>-2</sup> hr<sup>-1</sup>, ¶Ãg C m<sup>-2</sup> d<sup>-1</sup> g C m<sup>-2</sup> d<sup>-1</sup>;
-  CO<sub>2</sub> Flux method: ...
+  CO<sub>2</sub> Flux: g C m<sup>-2</sup> yr<sup>-1</sup>, mg C m<sup>-2</sup> d<sup>-1</sup>, mg C m<sup>-2</sup> hr<sup>-1</sup>, ¶Ãg C m<sup>-2</sup> d<sup>-1</sup> g C m<sup>-2</sup> d<sup>-1</sup>;  
+  CO<sub>2</sub> Flux method: ...  
 
 * **Part 5: Gas Transfer Velocity** - 
-  k<sub>600</sub>-CO<sub>2</sub>: m d<sup>-1</sup>, cm s<sup>-1</sup>
-  k-CO<sub>2</sub>: m d<sup>-1</sup>, cm s<sup>-1</sup>
+  k<sub>600</sub>-CO<sub>2</sub>: m d<sup>-1</sup>, cm s<sup>-1</sup>;  
+  k-CO<sub>2</sub>: m d<sup>-1</sup>, cm s<sup>-1</sup>  
 
 * **Part 6: Other field measurements** -
-  DOC: mg L<sup>-1</sup>, ¶Ãmol L<sup>-1</sup>;
-  POC: mg L<sup>-1</sup>, ¶Ãmol L<sup>-1</sup>;
-  TOC: mg L<sup>-1</sup>, ¶Ãmol L<sup>-1</sup>;
-  pH;
-  Alkalinity: 100 mg CaCO<sub>3</sub>, ¶Ãmol L<sup>-1</sup>;
-  DO: mg L<sup>-1</sup>;
-  Chl a: ¶Ãg L<sup>-1</sup>;
+  DOC: mg L<sup>-1</sup>, ¶Ãmol L<sup>-1</sup>;  
+  POC: mg L<sup>-1</sup>, ¶Ãmol L<sup>-1</sup>;  
+  TOC: mg L<sup>-1</sup>, ¶Ãmol L<sup>-1</sup>;  
+  pH;  
+  Alkalinity: 100 mg CaCO<sub>3</sub>, ¶Ãmol L<sup>-1</sup>;  
+  DO: mg L<sup>-1</sup>;  
+  Chl a: ¶Ãg L<sup>-1</sup>;  
 
   Note: listed selection options and units are to be added or changed.
 
 ## Existing methods
-* **Platform:** AWS, MS AZURE, Google Cloud, Yale Server
-* **Frontend web application:** HTML, CSS, Python, etc.
-* **Backend database:** MySQL, Oracle, etc.
+* **Platform:** AWS, MS AZURE, Google Cloud, Yale Server  
+* **Frontend web application:** HTML, CSS, Python, etc.  
+* **Backend database:** MySQL, Oracle, etc.  
 
 ## Proposed methods/tools
 To be determined.
