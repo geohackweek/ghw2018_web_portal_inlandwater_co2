@@ -1,0 +1,4 @@
+email*
+letter*
+#ignore all logs
+*.log
