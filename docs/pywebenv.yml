@@ -1,0 +1,7 @@
+name: webdev
+dependencies:
+- python=3.6
+- django
+- jupyter
+- mysql-connector-python
+- pymysql
