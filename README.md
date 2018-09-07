@@ -1,4 +1,4 @@
-# Project Tile: Web Portal for Concentration and Flux of CO<sub>2</sub> in Global Inland Waters
+# Project Title: Web Portal for Concentration and Flux of CO<sub>2</sub> in Global Inland Waters
 
 ## The Problem
 Observational data, especially *in situ* CO<sub>2</sub> concentration and flux measurements, are essential for correctly modeling CO<sub>2</sub> evasions from global inland waters. However, these measurements were collected and published separately by different research groups and there is a lack of a cohesive synthesis of direct measurements, hampering our ability to accurately model CO<sub>2</sub> emissions from inland waters. We believe that a global synthesis of direct CO<sub>2</sub> measurements would greatly enhance our understanding of the role that inland water plays in contributing CO<sub>2</sub> to the atmosphere. A publically accessible, easy-to-use web portal for researchers to easily input, visualize and download data would be a favorable approach for the synthesis ahead.
