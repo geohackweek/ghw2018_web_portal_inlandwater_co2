@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  django-web-server:
+    build:
+      context: ../
+      dockerfile: ./infra/django-web-server/Dockerfile
+    volumes:
+      - ../:/usr/src/app:consistent
+    expose:
+      - 8000
+    ports:
+      - 8000:8000
+    environment:
+      - POSTGRES_NAME=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_HOST=postgisdb
+      - POSTGRES_PORT=5432
+    links:
+      - postgisdb
+    networks:
+      - co2network
+    command: bash -c "./infra/scripts/start-server.sh"
+
+  postgisdb:
+    image: mdillon/postgis:9.6-alpine
+    expose:
+      - 5432
+    networks:
+      - co2network
+    volumes:
+      - postgisdbvolume:/var/lib/postgresql
+
+volumes:
+  postgisdbvolume:
+
+networks: 
+  co2network:

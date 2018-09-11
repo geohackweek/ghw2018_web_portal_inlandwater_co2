@@ -1,0 +1,10 @@
+name: backend
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - requests
+  - django
+  - gdal
+  - djangorestframework
+  - psycopg2
