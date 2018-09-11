@@ -5,7 +5,7 @@ Observational data, especially *in situ* CO<sub>2</sub> concentration and flux m
 
 ## Application Example
 An impressive web portal from Global Ocean Acidification Network for visualizing ocean field campaigns can be found via http://portal.goa-on.org/Explorer.
-	
+
 ## Sample Data
 We have compiled some 6000 individual CO<sub>2</sub> concentration/flux measurements from the literature in MS Excel form, which can be used to jump start construction of the online web-portal. We expect, however, that most of the project time is spent on construction of the front- and backend of the web portal rather than using the data for actual analysis. We hope that size of dataset can be doubled or tripled over the next 1-2 years through involving the bigger community with a well-designed web portal.
 
@@ -19,7 +19,7 @@ The project contains two main parts: designing the frontend web application and 
 * **Uploading data** - an UPLOAD DATA button unfolds two possible data uploading options: Batch Upload and Single Upload, which lead users to web interfaces for batch and single uploading options, respectively.
 
   * *Batch Upload*  
-    In the Batch Upload interface, users are asked to select a series (e.g., 10) of columns and units and specify the total number of observations (e.g., 15) to generate a spread table for data input. Selected columns, units and number of rows correspond to the structure and formats of users to-be-upload data. 
+    In the Batch Upload interface, users are asked to select a series (e.g., 10) of columns and units and specify the total number of observations (e.g., 15) to generate a spread table for data input. Selected columns, units and number of rows correspond to the structure and formats of users to-be-upload data.
     A spread table is generated with user-specified columns, units and number of rows (15 rows  10 columns with specified units in this case). The user can paste his/her data to the spread table. Column sequence is adjustable by giving sequence number to each column to be adjusted. A SUBMIT button sends data to the backend database.
 
   * *Single Upload*  
@@ -29,7 +29,7 @@ The project contains two main parts: designing the frontend web application and 
 
   Note - allowing user to upload csv files to the database is probably not a good option for taking in user data considering very limited control on data format even with associating metadata.
 
-* **Viewing Data** - on the main page, user can choose different data types (CO<sub>2</sub> concentration, flux and other ancillary data) for visualization and viewing by checking on/off different boxes. 
+* **Viewing Data** - on the main page, user can choose different data types (CO<sub>2</sub> concentration, flux and other ancillary data) for visualization and viewing by checking on/off different boxes.
 
 * **Downloading Data** - on the main page, for data downloading, user can filter through a series of data types and click on the DOWNLOAD DATA button (this option can be probably developed at a later stage of the web-portal development).
 
@@ -88,7 +88,7 @@ To be determined.
 Abril, G., S. Bouillon, F. Darchambeau, C. R. Teodoru, T. R. Marwick, F. Tamooh, F. Ochieng Omengo, N. Geeraert, L. Deirmendjian, and P. Polsenaere (2015), Technical Note: Large overestimation of pCO<sub>2</sub> calculated from pH and alkalinity in acidic, organic-rich freshwaters, Biogeosciences, 12(1), 67-78.
 
 Allen, G. H., and T. M. Pavelsky (2018), Global extent of rivers and streams, Science.
- 
+
 Raymond, P. A., J. Hartmann, R. Lauerwald, S. Sobek, C. McDonald, M. Hoover, D. Butman, R. Striegl, E. Mayorga, and C. Humborg (2013), Global carbon dioxide emissions from inland waters, Nature, 503(7476), 355-359.
 
 # Docker compose spin up
@@ -99,6 +99,12 @@ Make sure to have docker and docker-compose installed then run to build and brin
 docker-compose -f infra/docker-compose.yml -p co2web up
 ```
 
+To Run Jupyter Notebooks in the Docker Container
+
+```bash
+docker-compose -f infra/docker-compose.yml -p co2web run --rm --no-deps -p 8888:8888 django-web-server bash -c "source activate backend && jupyter notebook --allow-root --notebook-dir=./notebooks --ip=0.0.0.0 --port=8888"
+```
+
 To tear down the application run `ctrl + c` then
 ```bash
 docker-compose -f infra/docker-compose.yml -p co2web down
@@ -106,7 +112,6 @@ docker-compose -f infra/docker-compose.yml -p co2web down
 
 # Goals for GeoHackweek 2018
 
-* Create a relational database model for current data 
+* Create a relational database model for current data
 * put current data into database model
 * create map and data visualization and store on GitHub (e.g., map of site locations)
-	

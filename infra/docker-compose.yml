@@ -34,5 +34,5 @@ services:
 volumes:
   postgisdbvolume:
 
-networks: 
+networks:
   co2network:

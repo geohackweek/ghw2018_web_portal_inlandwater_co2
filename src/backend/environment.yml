@@ -8,3 +8,4 @@ dependencies:
   - gdal
   - djangorestframework
   - psycopg2
+  - jupyter
