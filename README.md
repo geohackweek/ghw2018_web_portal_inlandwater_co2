@@ -19,13 +19,13 @@ The project contains two main parts: designing the frontend web application and 
 * **Uploading data** - an UPLOAD DATA button unfolds two possible data uploading options: Batch Upload and Single Upload, which lead users to web interfaces for batch and single uploading options, respectively.
 
   * *Batch Upload*  
-    In the Batch Upload interface, users are asked to select a series (e.g., 10) of columns and units and specify the total number of observations (e.g., 15) to generate a spread table for data input. Selected columns, units and number of rows correspond to the structure and formats of user��s to-be-upload data. 
-    A spread table is generated with user-specified columns, units and number of rows (15 rows �� 10 columns with specified units in this case). The user can paste his/her data to the spread table. Column sequence is adjustable by giving sequence number to each column to be adjusted. A SUBMIT button sends data to the backend database.
+    In the Batch Upload interface, users are asked to select a series (e.g., 10) of columns and units and specify the total number of observations (e.g., 15) to generate a spread table for data input. Selected columns, units and number of rows correspond to the structure and formats of users to-be-upload data. 
+    A spread table is generated with user-specified columns, units and number of rows (15 rows  10 columns with specified units in this case). The user can paste his/her data to the spread table. Column sequence is adjustable by giving sequence number to each column to be adjusted. A SUBMIT button sends data to the backend database.
 
   * *Single Upload*  
     In the Single Upload interface, users will type data directly into the data-submitting form and select units from dropdown menus. User has the option to save typed-in data at each intermediate step and submit data to the database by clicking on SUBMIT.
 
-  Note - considering most of users�� data are stored in spreadsheet formats (MS Excel sheet, csv file, etc.), the batch upload option which generates a spread table for users to paste and send data is probably the most recommended.
+  Note - considering most of users data are stored in spreadsheet formats (MS Excel sheet, csv file, etc.), the batch upload option which generates a spread table for users to paste and send data is probably the most recommended.
 
   Note - allowing user to upload csv files to the database is probably not a good option for taking in user data considering very limited control on data format even with associating metadata.
 
@@ -44,8 +44,8 @@ The backend database hosts data input through batch and/or single user upload an
 * **Part 2: Physical Properties** -   
   Sampling date: yyyy-mm-dd;  
   Discharge: m s<sup>-1</sup>, L s<sup>-1</sup>, ft s<sup>-1</sup>;  
-  Water Temp: ��C;  
-  Air Temp: ��C;  
+  Water Temp: degrees C;  
+  Air Temp: degrees C;  
   Width: m, km;  
   Depth: cm, m, ft;  
   Surface Area (for lakes, ponds, etc.): m<sup>2</sup>, ft<sup>2</sup>, km<sup>2</sup>;  
@@ -53,7 +53,7 @@ The backend database hosts data input through batch and/or single user upload an
   Wind Speed: m s<sup>-1</sup>, ft s<sup>-1</sup>;  
 
 * **Part 3: Greenhouse Gas Concentrations** -  
-  CO<sub>2</sub>: ppm, ��atm, ��mol L<sup>-1</sup>, mg C L<sup>-1</sup> mg L<sup>-1</sup>;  
+  CO<sub>2</sub>: ppm, micro-atm, micro-mol L<sup>-1</sup>, mg C L<sup>-1</sup> mg L<sup>-1</sup>;  
   CO<sub>2</sub> method: ��  
 
 * **Part 4: Greenhouse Gas Fluxes** -  
@@ -103,3 +103,10 @@ To tear down the application run `ctrl + c` then
 ```bash
 docker-compose -f infra/docker-compose.yml -p co2web down
 ```
+
+# Goals for GeoHackweek 2018
+
+* Create a relational database model for current data 
+* put current data into database model
+* create map and data visualization and store on GitHub (e.g., map of site locations)
+	
