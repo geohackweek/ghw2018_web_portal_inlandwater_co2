@@ -2,9 +2,10 @@ version: '3'
 
 services:
   django-web-server:
-    build:
-      context: ../
-      dockerfile: ./infra/django-web-server/Dockerfile
+    # build:
+    #   context: ../
+    #   dockerfile: ./infra/django-web-server/Dockerfile
+    image: ghwco2web/django-web-server
     volumes:
       - ../:/usr/src/app:consistent
     expose:
