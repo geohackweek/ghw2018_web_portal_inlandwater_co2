@@ -19,13 +19,13 @@ The project contains two main parts: designing the frontend web application and 
 * **Uploading data** - an UPLOAD DATA button unfolds two possible data uploading options: Batch Upload and Single Upload, which lead users to web interfaces for batch and single uploading options, respectively.
 
   * *Batch Upload*  
-    In the Batch Upload interface, users are asked to select a series (e.g., 10) of columns and units and specify the total number of observations (e.g., 15) to generate a spread table for data input. Selected columns, units and number of rows correspond to the structure and formats of user¡¯s to-be-upload data. 
-    A spread table is generated with user-specified columns, units and number of rows (15 rows ¡Á 10 columns with specified units in this case). The user can paste his/her data to the spread table. Column sequence is adjustable by giving sequence number to each column to be adjusted. A SUBMIT button sends data to the backend database.
+    In the Batch Upload interface, users are asked to select a series (e.g., 10) of columns and units and specify the total number of observations (e.g., 15) to generate a spread table for data input. Selected columns, units and number of rows correspond to the structure and formats of userï¿½ï¿½s to-be-upload data. 
+    A spread table is generated with user-specified columns, units and number of rows (15 rows ï¿½ï¿½ 10 columns with specified units in this case). The user can paste his/her data to the spread table. Column sequence is adjustable by giving sequence number to each column to be adjusted. A SUBMIT button sends data to the backend database.
 
   * *Single Upload*  
     In the Single Upload interface, users will type data directly into the data-submitting form and select units from dropdown menus. User has the option to save typed-in data at each intermediate step and submit data to the database by clicking on SUBMIT.
 
-  Note - considering most of users¡¯ data are stored in spreadsheet formats (MS Excel sheet, csv file, etc.), the batch upload option which generates a spread table for users to paste and send data is probably the most recommended.
+  Note - considering most of usersï¿½ï¿½ data are stored in spreadsheet formats (MS Excel sheet, csv file, etc.), the batch upload option which generates a spread table for users to paste and send data is probably the most recommended.
 
   Note - allowing user to upload csv files to the database is probably not a good option for taking in user data considering very limited control on data format even with associating metadata.
 
@@ -39,13 +39,13 @@ The backend database hosts data input through batch and/or single user upload an
 ### 3. List of database/web-interface columns for user data taking-in
 * **Part 1: Site Information** -  
   Site Type: stream, river, lake, reservoir, pond, estuary, wetland, estuary, floodplain, and others;  
-  Site Location: longitude and latitude in decimal degree or ¡°deg, min, sec¡°, and altitude in meters above sea level (masl.)  
+  Site Location: longitude and latitude in decimal degree or ï¿½ï¿½deg, min, secï¿½ï¿½, and altitude in meters above sea level (masl.)  
 
 * **Part 2: Physical Properties** -   
   Sampling date: yyyy-mm-dd;  
   Discharge: m s<sup>-1</sup>, L s<sup>-1</sup>, ft s<sup>-1</sup>;  
-  Water Temp: ¡ãC;  
-  Air Temp: ¡ãC;  
+  Water Temp: ï¿½ï¿½C;  
+  Air Temp: ï¿½ï¿½C;  
   Width: m, km;  
   Depth: cm, m, ft;  
   Surface Area (for lakes, ponds, etc.): m<sup>2</sup>, ft<sup>2</sup>, km<sup>2</sup>;  
@@ -53,11 +53,11 @@ The backend database hosts data input through batch and/or single user upload an
   Wind Speed: m s<sup>-1</sup>, ft s<sup>-1</sup>;  
 
 * **Part 3: Greenhouse Gas Concentrations** -  
-  CO<sub>2</sub>: ppm, ¦Ìatm, ¦Ìmol L<sup>-1</sup>, mg C L<sup>-1</sup> mg L<sup>-1</sup>;  
-  CO<sub>2</sub> method: ¡­  
+  CO<sub>2</sub>: ppm, ï¿½ï¿½atm, ï¿½ï¿½mol L<sup>-1</sup>, mg C L<sup>-1</sup> mg L<sup>-1</sup>;  
+  CO<sub>2</sub> method: ï¿½ï¿½  
 
 * **Part 4: Greenhouse Gas Fluxes** -  
-  CO<sub>2</sub> Flux: g C m<sup>-2</sup> yr<sup>-1</sup>, mg C m<sup>-2</sup> d<sup>-1</sup>, mg C m<sup>-2</sup> hr<sup>-1</sup>, ¦Ìg C m<sup>-2</sup> d<sup>-1</sup> g C m<sup>-2</sup> d<sup>-1</sup>;  
+  CO<sub>2</sub> Flux: g C m<sup>-2</sup> yr<sup>-1</sup>, mg C m<sup>-2</sup> d<sup>-1</sup>, mg C m<sup>-2</sup> hr<sup>-1</sup>, ï¿½ï¿½g C m<sup>-2</sup> d<sup>-1</sup> g C m<sup>-2</sup> d<sup>-1</sup>;  
   CO<sub>2</sub> Flux method: ...  
 
 * **Part 5: Gas Transfer Velocity** -  
@@ -65,13 +65,13 @@ The backend database hosts data input through batch and/or single user upload an
   k-CO<sub>2</sub>: m d<sup>-1</sup>, cm s<sup>-1</sup>  
 
 * **Part 6: Other field measurements** -  
-  DOC: mg L<sup>-1</sup>, ¦Ìmol L<sup>-1</sup>;  
-  POC: mg L<sup>-1</sup>, ¦Ìmol L<sup>-1</sup>;  
-  TOC: mg L<sup>-1</sup>, ¦Ìmol L<sup>-1</sup>;  
+  DOC: mg L<sup>-1</sup>, ï¿½ï¿½mol L<sup>-1</sup>;  
+  POC: mg L<sup>-1</sup>, ï¿½ï¿½mol L<sup>-1</sup>;  
+  TOC: mg L<sup>-1</sup>, ï¿½ï¿½mol L<sup>-1</sup>;  
   pH;  
-  Alkalinity: 100 mg CaCO<sub>3</sub>, ¦Ìmol L<sup>-1</sup>;  
+  Alkalinity: 100 mg CaCO<sub>3</sub>, ï¿½ï¿½mol L<sup>-1</sup>;  
   DO: mg L<sup>-1</sup>;  
-  Chl a: ¦Ìg L<sup>-1</sup>;  
+  Chl a: ï¿½ï¿½g L<sup>-1</sup>;  
 
   Note: listed selection options and units are to be added or changed.
 
@@ -90,3 +90,16 @@ Abril, G., S. Bouillon, F. Darchambeau, C. R. Teodoru, T. R. Marwick, F. Tamooh,
 Allen, G. H., and T. M. Pavelsky (2018), Global extent of rivers and streams, Science.
  
 Raymond, P. A., J. Hartmann, R. Lauerwald, S. Sobek, C. McDonald, M. Hoover, D. Butman, R. Striegl, E. Mayorga, and C. Humborg (2013), Global carbon dioxide emissions from inland waters, Nature, 503(7476), 355-359.
+
+# Docker compose spin up
+
+Make sure to have docker and docker-compose installed then run to build and bring up the application
+
+```bash
+docker-compose -f infra/docker-compose.yml -p co2web up
+```
+
+To tear down the application run `ctrl + c` then
+```bash
+docker-compose -f infra/docker-compose.yml -p co2web down
+```
