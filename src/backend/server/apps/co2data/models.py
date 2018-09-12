@@ -9,4 +9,4 @@ class CO2(models.Model):
 	point = models.PointField()
 
 	def __str__(self):
-		return (self.sample_date, self.point)
+		return '-'.join((self.sample_date.isoformat(), f'{self.point.x}, {self.point.y}'))

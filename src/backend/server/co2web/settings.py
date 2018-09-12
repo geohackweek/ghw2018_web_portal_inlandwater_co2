@@ -38,11 +38,11 @@ DJANGO_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.gis',
-    'co2data'
 ]
 
 LOCAL_APPS = [
     'apps.home',
+    'apps.co2data'
 ]
 
 THIRD_PARTY_APPS = [
