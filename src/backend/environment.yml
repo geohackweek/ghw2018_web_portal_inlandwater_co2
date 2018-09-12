@@ -9,3 +9,4 @@ dependencies:
   - djangorestframework
   - psycopg2
   - jupyter
+  - nb_conda_kernels
