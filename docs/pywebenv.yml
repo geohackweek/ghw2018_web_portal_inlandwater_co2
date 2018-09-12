@@ -1,7 +1,12 @@
 name: webdev
+channel:
+  - conda-forge
 dependencies:
-- python=3.6
-- django
-- jupyter
-- mysql-connector-python
-- pymysql
+  - python=3.6
+  - django
+  - jupyter
+  - requests
+  - gdal
+  - djangorestframework
+  - psycopg2
+  - nb_conda_kernels
