@@ -1,10 +1,10 @@
 from django.contrib import admin
-from apps.co2data.models import (SiteDescriptions,
-								 SiteLocations,
-								 Samples
+from apps.co2data.models import (SiteDescription,
+								 SiteLocation,
+								 Sample
 								)
 # Register your models here.
 
-admin.site.register(SiteDescriptions)
-admin.site.register(SiteLocations)
-admin.site.register(Samples)
+admin.site.register(SiteDescription)
+admin.site.register(SiteLocation)
+admin.site.register(Sample)

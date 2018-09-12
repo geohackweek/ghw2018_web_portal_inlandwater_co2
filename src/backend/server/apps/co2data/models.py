@@ -1,19 +1,19 @@
 from django.contrib.gis.db import models
 
-class SiteDescriptions(models.Model):
+class SiteDescription(models.Model):
 	"""describes the site_types of a location"""
-	id = models.IntegerField(primary_key=True)
+	id = models.AutoField(primary_key=True)
 	site = models.CharField(max_length=200)
 
 	def __str__(self):
 		return self.site
 
 
-class SiteLocations(models.Model):
+class SiteLocation(models.Model):
 	"""the locations of samples represented as a point geometry"""
-	id = models.IntegerField(primary_key=True)
+	id = models.AutoField(primary_key=True)
 	site_description = models.ForeignKey(
-		SiteDescriptions,
+		SiteDescription,
 		on_delete=models.PROTECT
 	)
 	latitude = models.FloatField(default=0.00)
@@ -36,12 +36,12 @@ class SiteLocations(models.Model):
 #
 # 	unit = model.CharField(max_length=25)
 
-class Samples(models.Model):
+class Sample(models.Model):
 	"""Date and Location of Sample."""
-	id = models.IntegerField(primary_key=True)
+	id = models.AutoField(primary_key=True)
 	date = models.DateTimeField()
 	site_location = models.ForeignKey(
-		SiteLocations,
+		SiteLocation,
 		on_delete=models.PROTECT
 	)
 	#eventual implementation of the sampletypes and units of measure
