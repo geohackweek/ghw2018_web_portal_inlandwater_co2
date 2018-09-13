@@ -94,6 +94,16 @@ DATABASES = {
         'PORT': os.environ.get('POSTGRES_PORT')
     }
 }
+# Running on the local sqlitedatabase
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.contrib.gis.db.backends.sqlite3',
+#         'NAME': 'sqlite3.db', #replace with path to local sqlite3 database
+#         'USER': '',
+#         'HOST': '',
+#         'PORT': ''
+#     }
+# }
 
 
 # Password validation
