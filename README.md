@@ -110,6 +110,20 @@ To tear down the application run `ctrl + c` then
 docker-compose -f infra/docker-compose.yml -p co2web down
 ```
 
+To Access Django Admin Page
+
+Rebuild the Docker Instance
+```bash
+docker-compose -f infra/docker-compose.yml -p co2web down --volumes
+```  
+```bash
+docker-compose -f infra/docker-compose.yml -p co2web up
+```
+use web browser to visit localhost:8000/admin
+	* user: co2master
+	* password: *************
+
+
 # Goals for GeoHackweek 2018
 
 * Create a relational database model for current data
