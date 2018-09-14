@@ -25,7 +25,7 @@ SECRET_KEY = '*i(kh-070$yp^i5h5#jntx3&t*h5o68*(rn$&f$p3*-i-)23v^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-web-server']
 
 
 # Application definition
