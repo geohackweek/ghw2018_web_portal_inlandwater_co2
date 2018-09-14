@@ -1,11 +1,3 @@
-from django.shortcuts import render
-import json
-from django.http import HttpResponse
-from django.db import connection
-
-def return_all_samples():
-	with connection.cursor() as cursor:
-		query = """
 select
 	(select row_to_json(_) from (select site_location_id, bar.site_description, to_json(array_agg(samples_by_type)) as samples) as _) as properties,
 	st_asGeoJson(sl.point) as feature
@@ -42,21 +34,3 @@ group by
 	bar.site_description,
 	sl.point
  ;
-"""
-		cursor.execute(query, connection)
-		row = cursor.fetchall()
-	return row
-
-# Create your views here.
-def data(request):
-
-	some_data_to_dump = {
-		'some_var_1': 'foo',
-		'some_var_2': 'bar',
-	}
-
-
-	results = return_all_samples()
-
-	data = json.dumps(results, indent=4, separators=(',', ': '))
-	return HttpResponse(data, content_type='application/json')
