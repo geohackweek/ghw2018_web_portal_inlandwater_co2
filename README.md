@@ -140,6 +140,9 @@ use web browser to visit localhost:8000/admin
 * Elena Reinisch: Interactive Time Series
 * Wei Shi: Interactive Marker Clustering Maps
 * Catherine Kuhn: Exploratory Data Analysis
+* Don Setiawan: Data Science Lead
+* Emilio Mayorga: Data Science Lead
+
 
 
 # Goals for GeoHackweek 2018

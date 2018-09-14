@@ -1,4 +1,4 @@
-# [Project Title: Web Portal for Concentration and Flux of CO<sub>2</sub> in Global Inland Waters](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/)
+# Project Title: Web Portal for Concentration and Flux of CO<sub>2</sub> in Global Inland Waters
 
 ## Table of Contents
 * Introduction
@@ -140,6 +140,8 @@ use web browser to visit localhost:8000/admin
 * Elena Reinisch: Interactive Time Series
 * Wei Shi: Interactive Marker Clustering Maps
 * Catherine Kuhn: Exploratory Data Analysis
+* Don Setiawan: Data Science Lead
+* Emilio Mayorga: Data Science Lead
 
 
 # Goals for GeoHackweek 2018
