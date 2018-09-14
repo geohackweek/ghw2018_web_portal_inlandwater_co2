@@ -25,7 +25,7 @@ class SiteLocation(models.Model):
 	# GeoDjango-specific: a geometry field (PointField)
 	point = models.PointField()
 	def __str__(self):
-		return '-'.join((f'{self.point.x}, {self.point.y}'))
+		return ' '.join( ((str(self.point.x), str(self.point.y))) )
 
 #eventual implementation of the sampletypes and units of measure
 # class SampleType(object):
