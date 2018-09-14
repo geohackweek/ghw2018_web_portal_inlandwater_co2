@@ -3,7 +3,7 @@
 ## Table of Contents
 * Introduction
 * [Database Implementation](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/load_data_to_postgis.html)
-* Visualization 
+* Visualization
 	- [Interactive Time Series](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/InteractiveTimeSeries.html)
 	- [Clustering Map](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/MarkerClustering.html)
 	- [Exploratory Data Analysis](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/ExploratoryDataAnalysis.html)
@@ -136,13 +136,16 @@ use web browser to visit localhost:8000/admin
 
 # GeoHackweek 2018 Team
 
+**Participants**
+* Shaoda Liu: Database Modeling and Data Loading
 * Ryan Ulsberger: Database Model and Data Loading
 * Elena Reinisch: Interactive Time Series
 * Wei Shi: Interactive Marker Clustering Maps
-* Catherine Kuhn: Exploratory Data Analysis
+
+**Leads & Contributors**
+* Catherine Kuhn: Data & Domain Science Lead
 * Don Setiawan: Data Science Lead
 * Emilio Mayorga: Data Science Lead
-
 
 
 # Goals for GeoHackweek 2018
@@ -152,7 +155,7 @@ use web browser to visit localhost:8000/admin
 * create map and data visualization and store on GitHub (e.g., map of site locations)
 
 
-# Database 
+# Database
 We have implemented this database through Docker with the ability to run the data in Jupyter notebooks.  Details can be found [here](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/load_data_to_postgis.html). The Jupyter notebook is available at our GitHub repository page.
 
 # Visualization
