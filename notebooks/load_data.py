@@ -21,6 +21,5 @@ co2_data_table = pd.read_excel("../data/co2.xlsx", skiprows=range(1, 2))
 geometry = [Point(xy) for xy in zip(co2_data_table['Longitude'], co2_data_table['Latitude'])]
 geometry = GeoSeries(geometry)
 geometry.crs = {'init': 'epsg:4326'}
-geometry.crs
 
-co2_geo_data_table = GeoDataFrame(co2_data_table, geometry=geometry)
+co2_geo_data_table = GeoDataFrame(co2_data_table, geometry=geometry, crs=geometry.crs)
