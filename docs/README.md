@@ -1,4 +1,4 @@
-# Project Title: Web Portal for Concentration and Flux of CO<sub>2</sub> in Global Inland Waters
+# [Project Title: Web Portal for Concentration and Flux of CO<sub>2</sub> in Global Inland Waters](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/)
 
 ## Table of Contents
 * Introduction
@@ -7,7 +7,6 @@
 	- [Interactive Time Series](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/InteractiveTimeSeries.html)
 	- [Clustering Map](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/MarkerClustering.html)
 	- [Exploratory Data Analysis](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/ExploratoryDataAnalysis.html)
-
 
 ## The Problem
 Observational data, especially *in situ* CO<sub>2</sub> concentration and flux measurements, are essential for correctly modeling CO<sub>2</sub> evasions from global inland waters. However, these measurements were collected and published separately by different research groups and there is a lack of a cohesive synthesis of direct measurements, hampering our ability to accurately model CO<sub>2</sub> emissions from inland waters. We believe that a global synthesis of direct CO<sub>2</sub> measurements would greatly enhance our understanding of the role that inland water plays in contributing CO<sub>2</sub> to the atmosphere. A publically accessible, easy-to-use web portal for researchers to easily input, visualize and download data would be a favorable approach for the synthesis ahead.
@@ -134,6 +133,13 @@ docker-compose -f infra/docker-compose.yml -p co2web up
 use web browser to visit localhost:8000/admin
 	* user: co2master
 	* password: *************
+
+# GeoHackweek 2018 Team
+
+* Ryan Ulsberger: Database Model and Data Loading
+* Elena Reinisch: Interactive Time Series
+* Wei Shi: Interactive Marker Clustering Maps
+* Catherine Kuhn: Exploratory Data Analysis
 
 
 # Goals for GeoHackweek 2018

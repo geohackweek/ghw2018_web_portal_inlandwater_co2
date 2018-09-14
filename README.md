@@ -134,6 +134,13 @@ use web browser to visit localhost:8000/admin
 	* user: co2master
 	* password: *************
 
+# GeoHackweek 2018 Team
+
+* Ryan Ulsberger: Database Model and Data Loading
+* Elena Reinisch: Interactive Time Series
+* Wei Shi: Interactive Marker Clustering Maps
+* Catherine Kuhn: Exploratory Data Analysis
+
 
 # Goals for GeoHackweek 2018
 
