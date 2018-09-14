@@ -132,3 +132,9 @@ use web browser to visit localhost:8000/admin
 * Create a relational database model for current data
 * put current data into database model
 * create map and data visualization and store on GitHub (e.g., map of site locations)
+
+
+# Database 
+
+
+# Visualization
