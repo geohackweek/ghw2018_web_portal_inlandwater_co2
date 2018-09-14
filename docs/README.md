@@ -136,10 +136,14 @@ use web browser to visit localhost:8000/admin
 
 # GeoHackweek 2018 Team
 
+**Participants**
+* Shaoda Liu: Database Modeling and Data Loading
 * Ryan Ulsberger: Database Model and Data Loading
 * Elena Reinisch: Interactive Time Series
 * Wei Shi: Interactive Marker Clustering Maps
-* Catherine Kuhn: Exploratory Data Analysis
+
+**Leads & Contributors**
+* Catherine Kuhn: Data & Domain Science Lead
 * Don Setiawan: Data Science Lead
 * Emilio Mayorga: Data Science Lead
 
