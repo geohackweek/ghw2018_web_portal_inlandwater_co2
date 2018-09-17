@@ -64,10 +64,10 @@ The backend database hosts data input through batch and/or single user upload an
 
 * **Part 3: Greenhouse Gas Concentrations** -  
   CO<sub>2</sub>: ppm, micro-atm, micro-mol L<sup>-1</sup>, mg C L<sup>-1</sup> mg L<sup>-1</sup>;  
-  CO<sub>2</sub> method: ��  
+  CO<sub>2</sub> method:  
 
 * **Part 4: Greenhouse Gas Fluxes** -  
-  CO<sub>2</sub> Flux: g C m<sup>-2</sup> yr<sup>-1</sup>, mg C m<sup>-2</sup> d<sup>-1</sup>, mg C m<sup>-2</sup> hr<sup>-1</sup>, ��g C m<sup>-2</sup> d<sup>-1</sup> g C m<sup>-2</sup> d<sup>-1</sup>;  
+  CO<sub>2</sub> Flux: g C m<sup>-2</sup> yr<sup>-1</sup>, mg C m<sup>-2</sup> d<sup>-1</sup>, mg C m<sup>-2</sup> hr<sup>-1</sup>, g C m<sup>-2</sup> d<sup>-1</sup> g C m<sup>-2</sup> d<sup>-1</sup>;  
   CO<sub>2</sub> Flux method: ...  
 
 * **Part 5: Gas Transfer Velocity** -  
@@ -75,13 +75,13 @@ The backend database hosts data input through batch and/or single user upload an
   k-CO<sub>2</sub>: m d<sup>-1</sup>, cm s<sup>-1</sup>  
 
 * **Part 6: Other field measurements** -  
-  DOC: mg L<sup>-1</sup>, ��mol L<sup>-1</sup>;  
-  POC: mg L<sup>-1</sup>, ��mol L<sup>-1</sup>;  
-  TOC: mg L<sup>-1</sup>, ��mol L<sup>-1</sup>;  
+  DOC: mg L<sup>-1</sup>, umol L<sup>-1</sup>;  
+  POC: mg L<sup>-1</sup>, umol L<sup>-1</sup>;  
+  TOC: mg L<sup>-1</sup>, umol L<sup>-1</sup>;  
   pH;  
-  Alkalinity: 100 mg CaCO<sub>3</sub>, ��mol L<sup>-1</sup>;  
+  Alkalinity: 100 mg CaCO<sub>3</sub>, umol L<sup>-1</sup>;  
   DO: mg L<sup>-1</sup>;  
-  Chl a: ��g L<sup>-1</sup>;  
+  Chl a: ug L<sup>-1</sup>;  
 
   Note: listed selection options and units are to be added or changed.
 
