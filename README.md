@@ -49,7 +49,7 @@ The backend database hosts data input through batch and/or single user upload an
 ### 3. List of database/web-interface columns for user data taking-in
 * **Part 1: Site Information** -  
   Site Type: stream, river, lake, reservoir, pond, estuary, wetland, estuary, floodplain, and others;  
-  Site Location: longitude and latitude in decimal degree or ��deg, min, sec��, and altitude in meters above sea level (masl.)  
+  Site Location: longitude and latitude in decimal degree or deg, min, sec, and altitude in meters above sea level (masl.)  
 
 * **Part 2: Physical Properties** -   
   Sampling date: yyyy-mm-dd;  
