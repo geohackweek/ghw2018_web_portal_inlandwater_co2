@@ -111,7 +111,7 @@ docker-compose -f infra/docker-compose.yml -p co2web up
 Now the container is running. To Run Jupyter Notebooks in the Docker Container
 
 ```bash
-docker-compose -f infra/docker-compose.yml -p co2web run --rm --no-deps -p 8888:8888 django-web-server bash -c "source activate backend && jupyter notebook --allow-root --notebook-dir=./notebooks --ip=0.0.0.0 --port=8888"
+docker-compose -f infra/docker-compose.yml -p co2web run --rm --no-deps -p 8888:8888 django-web-server bash -c "source activate backend && jupyter notebook --allow-root --notebook-dir=. --ip=0.0.0.0 --port=8888"
 ```
 
 To stop your work session, run `ctrl + c`
