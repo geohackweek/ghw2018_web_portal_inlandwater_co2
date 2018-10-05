@@ -257,12 +257,12 @@ The *pH* value of water at the sampling location and time. *pH* has no unit.
 *Chl a* refers to chlorophyll a concentration in the water body. The default unit for *Chl a* is µg L<sup>-1</sup> in the database.
 
 
+### **2. Frontend Views to be developed**
 
 Note: 
 (1) Refer to docs/Web portal.pptx when reading about development of frontend views.
 (2) Not mature thoughts. Let’s try out a few of these.
 
-### **2. Frontend Views to be developed**
 2.1 View of home page
 
 Contains a map interface showing background world map and site locations. It also contains links to views such as Upload Data, Download Data, etc.
