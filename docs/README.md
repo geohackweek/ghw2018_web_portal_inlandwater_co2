@@ -1,7 +1,12 @@
 # Project Title: Web Portal for Concentration and Flux of CO<sub>2</sub> in Global Inland Waters
+## Phase 2 Project Development of the CO<sub>2</sub> Web Portal
 
 [![DOI](https://zenodo.org/badge/147741084.svg)](https://zenodo.org/badge/latestdoi/147741084)
+### **Two Directions:**
+* **1. Refining and developing backend database models**
+* **2. Developing frontend views of the CO<sub>2</sub> web portal**
 
+## Phase 1 Project Development of the CO<sub>2</sub> Web Portal
 ## Table of Contents
 * Introduction
 * [Database Implementation](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/load_data_to_postgis.html)
