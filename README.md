@@ -295,7 +295,44 @@ A submit button to send data to the backend.
 2.8 View for displaying all CO<sub>2</sub> measurement
 
 
-## Phase 1 Project Development of the CO<sub>2</sub> Web Portal
+## Docker compose spin up
+
+Make sure to have docker and docker-compose installed then run to build and bring up the application
+
+```bash
+docker-compose -f infra/docker-compose.yml -p co2web up
+```
+Now the container is running. To Run Jupyter Notebooks in the Docker Container
+
+```bash
+docker-compose -f infra/docker-compose.yml -p co2web run --rm --no-deps -p 8888:8888 django-web-server bash -c "source activate backend && jupyter notebook --allow-root --notebook-dir=./notebooks --ip=0.0.0.0 --port=8888"
+```
+
+To stop your work session, run `ctrl + c`
+
+```bash
+docker-compose -f infra/docker-compose.yml -p co2web down
+```
+
+To re-start your work session then do the first two steps again.
+
+
+To Access Django Admin Page
+
+Rebuild the Docker Instance
+```bash
+docker-compose -f infra/docker-compose.yml -p co2web down --volumes
+```  
+```bash
+docker-compose -f infra/docker-compose.yml -p co2web up
+```
+use web browser to visit localhost:8000/admin
+
+* user: co2master
+* password: *************
+
+
+## Phase 1 Project Development of the CO<sub>2</sub> Web Portal (finished)
 ## Table of Contents
 * Introduction
 * [Database Implementation](https://geohackweek.github.io/ghw2018_web_portal_inlandwater_co2/load_data_to_postgis.html)
