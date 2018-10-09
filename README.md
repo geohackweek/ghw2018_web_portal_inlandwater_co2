@@ -5,7 +5,7 @@ Observational data, especially *in situ* CO<sub>2</sub> concentration and flux m
 
 Refer to the project's [phase 1](phase1.md) development for a general description of the CO<sub>2</sub>web project.
 
-Refer to [phase 2](phase2.md) development of the project for detailed description of phase 2 development of the CO<sub>2</sub>web project.
+Refer to the project's [phase 2](phase2.md) development for a description of phase 2 goals and details.
 
 ## Docker compose spin up
 The project uses docker as the development environment. Make sure to have docker and docker-compose installed on your local machine then run the following command to build and spin up the application.
