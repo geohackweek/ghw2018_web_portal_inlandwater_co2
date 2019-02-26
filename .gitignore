@@ -118,3 +118,4 @@ dmypy.json
 email*
 letter*
 *.log
+.DS_Store
